@@ -1,0 +1,118 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}body{
+    background-color: bisque;
+}.text-white{
+    color: white;
+    position: relative;
+    top: 170px;
+    font-size: 34px;
+    text-shadow: 6px 7px 6px blueviolet;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-weight: 1000;
+}.text-muted{
+    color: rgb(185, 184, 184);
+    position: relative;
+    top: 180px;
+    font-size: 24px;
+    text-shadow: 3px 5px 5px gray;
+}
+header{
+    text-align: center;
+    align-items: center;
+    background: url(./thumbimg_25361957thumbejpg.jpg) center/cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 99.25%;
+    margin: -10px;
+    padding: 10px;
+    
+}.box-detiles{
+    width: 100vh;
+    position: relative;
+    top: 300px;
+    height: 70px;
+    padding: 20px;
+    color: white;
+    font-size: 17px;
+}
+main{
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(53, 53, 53);
+}.main-text{
+    border: 2px solid white;
+    padding: 14px;
+    background-color: #604fa8;
+    color: white;
+    animation: test 2s ease 10s ;
+    transition: all ease 0.3s;
+    box-sizing: border-box;
+}.main-text p{
+    margin: 0;
+    padding: 0;
+}
+#mybtn{
+    width: 250px;
+    height: 40px;
+    border: none;
+    background-color: #604fa8;
+    font-size: 15px;
+    color: white;
+    border-radius: 7px;
+    transition: all .4s;
+}#mybtn:hover{
+    color: #604fa8;
+    background-color: white;
+    border: 1px solid #604fa8;
+    width: 300px;
+}
+@keyframes test{
+    50%{
+        background-color: white;
+        color: #604fa8;
+    }
+}
+.meta{
+    margin: 10px 0px;
+    background-color: lightskyblue;
+    padding: 10px;
+    font-size: 50px;
+    display:block;
+    border-radius: 10px;
+    color: rgb(74, 38, 107);
+}
+.timer{
+    padding: 0px 30px;
+    position: relative;
+    
+}
+#textarea{
+    padding: 10px;
+    width: 90%;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#main-texts p{
+    font-size: 20px;
+}.testArea{
+    background-color:rgb(74, 38, 107);
+    border-radius: 15px;
+    padding: 10px 0;
+    text-align: center;
+}
+.dark{
+    text-align: center;
+    background-color: rgb(74, 38, 107);
+    color: white;
+    padding: 14px;
+    border-radius: 15px;
+    margin:15px 0px ;
+}
